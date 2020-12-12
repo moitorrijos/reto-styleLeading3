@@ -1,0 +1,26 @@
+Guía de Estilos
+
+Detalles de los colores y la tipografía están creados en las variables CSS, mira el archivo "style.css".
+
+:root{
+    --main-logo-text-color: #ffffff;
+    --main-text-color: #ffffff;
+    --main-border-color: #c1c1c1;
+    --main-button-bg-color: #fbb657;
+    --primary-font-family: 'Oswald', sans-serif;
+    --secondary-font-family: 'Roboto', sans-serif;
+    --font-weight-100: 100;
+    --font-weight-200: 200;
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-700: 700;
+}
+
+La imagen del background se encuentra en: /static/images/bg.jpg
+
+La imagen "resultado_final.png" es la referencia visual de cómo debe quedar al final el proyecto.  La animación la puedes ver en el archivo de video: Elementos_Animados.mp4
+
+Si tienes dudas adiconales me puedes contactar a: jair@cooltimedia.com
+
+Gracias por participar.
+Te deseamos los mejor.

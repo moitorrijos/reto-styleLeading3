@@ -1,0 +1,125 @@
+/*Global*/
+/* Propiedades Personalizadas */
+:root{
+    --main-logo-text-color: #ffffff;
+    --main-text-color: #ffffff;
+    --main-border-color: #c1c1c1;
+    --main-button-bg-color: #fbb657;
+    --primary-font-family: 'Oswald', sans-serif;
+    --secondary-font-family: 'Roboto', sans-serif;
+    --font-weight-100: 100;
+    --font-weight-200: 200;
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-700: 700;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container.container.container {
+    width: 940px;
+}
+
+.section-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid var(--main-border-color);
+}
+
+.section-logo h1 {
+    color: var(--main-logo-text-color);
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.section_right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.section_right h2 {
+    font-size: 17px;
+    color: var(--main-text-color);
+    font-family: var(--secondary-font-family);
+    font-weight: var(--font-weight-200);
+}
+
+.section_right_container {
+    width: 100%;
+}
+
+form {
+    color: var(--main-text-color);
+    font-family: var(--secondary-font-family);
+}
+
+form input.form-control {
+    background-color: transparent;
+    border: 2px solid var(--main-border-color);
+    color: var(--main-text-color);
+    padding: 12px;
+    font-size: 14px;
+}
+
+form input.form-control::placeholder {
+    color: var(--main-border-color);
+    font-weight: var(--font-weight-100);
+}
+
+.form-group {
+    position: relative;
+}
+
+i.field-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: var(--main-border-color);
+}
+
+form button {
+    width: 100%;
+    background-color: var(--main-button-bg-color);
+    color: var(--main-text-color);
+}
+
+.animate-content-delay1 {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out 1s forwards;
+}
+
+.animate-content-delay2 {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out 1.25s forwards;
+}
+
+.animate-content-delay3 {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out 1.5s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
